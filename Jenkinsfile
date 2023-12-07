@@ -1,7 +1,7 @@
 pipeline {
     agent { label 'POLL'}
     triggers {
-        cron('*/15 12 * * 1-5')
+        cron('30 7 * * 1-5')
     }
         stages {
             stage('git') {
